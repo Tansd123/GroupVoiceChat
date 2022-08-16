@@ -1,0 +1,13 @@
+name: CreateGroup
+version: '${project.version}'
+main: dev.creategroup.CreateGroup
+api-version: 1.18
+depend: [ voicechat ]
+authors: [ doba ]
+commands:
+  creategroup:
+    description: Create Group Voice Chat
+    usage: /<command> [player] [name] [password]
+  call:
+    description: Call Player
+    usage: /<command> [name] [password]
